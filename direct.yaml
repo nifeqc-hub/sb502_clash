@@ -1,8 +1,8 @@
 payload:
-
-  - '+.ekuai.asia'
-  - '+.bilibili.com'
-  - '+.quark.cn'
-  - '+.douyin.com' 
-  - '+.gov.cn'
-  - '+.xiaohongshu.com'
+  - +.ekuai.asia
+  - +.bilibili.com
+  - hls.itunes.apple.com
+  - +.quark.cn
+  - +.douyin.com
+  - +.gov.cn
+  - +.xiaohongshu.com
