@@ -1,8 +1,6 @@
 payload:
 
-  - '+.ekuai.asia'
-  - '+.bilibili.com'
-  - '+.quark.cn'
-  - '+.douyin.com' 
-  - '+.gov.cn'
-  - '+.xiaohongshu.com'
+  - '+.co.jp'
+  - 'https://channel.rakuten.co.jp'
+  - '+.amagi.tv'
+  - 'https://cdn-apne1.tsv2.amagi.tv'
