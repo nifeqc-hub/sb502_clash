@@ -1,6 +1,6 @@
 payload:
-
-  - '+.co.jp'
-  - 'https://channel.rakuten.co.jp'
-  - '+.amagi.tv'
-  - 'https://cdn-apne1.tsv2.amagi.tv'
+  - +.co.jp
+  - hls-amt.itunes.apple.com
+  - https://channel.rakuten.co.jp
+  - +.amagi.tv
+  - https://cdn-apne1.tsv2.amagi.tv
