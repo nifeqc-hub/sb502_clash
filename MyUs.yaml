@@ -1,60 +1,57 @@
 payload:
-    - +.world-protv.club
+  - +.world-protv.club
 
-    # CDN
-    - +.cloudfront.net
-    - +.akamaized.net
-    - +.akamaihd.net
-    - +.edgekey.net
-    - +.edgesuite.net
-    - +.fastly.net
-    - +.llnwd.net
-    - +.edgecastcdn.net
-    - +.azureedge.net
+  # 主流CDN
+  - +.cloudfront.net
+  - +.akamaized.net
+  - +.akamaihd.net
+  - +.edgekey.net
+  - +.edgesuite.net
+  - +.fastly.net
+  - +.llnwd.net
+  - +.edgecastcdn.net
+  - +.azureedge.net
+  - +.cloudflare.com
 
-    # 媒体 CDN
-    - +.warnermediacdn.com
-    - +.amagi.tv
-    - +.transmit.live
-    - +.thehlive.com
-  
-    # FAST TV
-    - +.pluto.tv
-    - +.roku.com
-  
-    # 媒体集团
-    - +.nbcuni.com
-    - +.amdvids.com
-  
-    # AWS MediaTailor
-    - +.mediatailor.us-west-2.amazonaws.com
-    - +.mediatailor.us-east-1.amazonaws.com
-  
-    # 公共资源
-    - +.githubassets.com
-    - +.githubusercontent.com
-    - +.jsdelivr.net
-    - +.cloudflare.com
-    - +.imgix.net
-    - +.imagekit.io
-    - +.cloudinary.com
-    - +.mux.com
-    - +.mux.video
-    - +.brightcove.net
-    - +.jwpcdn.com  
-    - +.amg00886-uktvmedialimite-uktvplayuncovered-samsunguk-pxi83.amagi.tv
-    - +.dhjd4u7ds8bgi.cloudfront.net
-    - +.aenetworks.global.transmit.live
-    - +.playout.now3.amagi.tv
-    - +.pddl.sharewithyou.dpdns.org
-    - +.provider.plex.tv
-    - +.s10host1.localnow.api.cms.amdvids.com
-    - +.802017341873.plus-26.com
+  # IPTV/媒体CDN
+  - +.livecdn.io
+  - +.warnermediacdn.com
+  - +.amagi.tv
+  - +.transmit.live
+  - +.thehlive.com
+
+  # FAST TV
+  - +.roku.com
+  - +.pluto.tv
+
+  # 媒体集团
+  - +.nbcuni.com
+  - +.amdvids.com
+
+  # AWS MediaTailor
+  - +.mediatailor.us-west-2.amazonaws.com
+  - +.mediatailor.us-east-1.amazonaws.com
+
+  # 资源分发
+  - +.githubassets.com
+  - +.githubusercontent.com
+  - +.jsdelivr.net
+  - +.imgix.net
+  - +.imagekit.io
+  - +.cloudinary.com
+  - +.mux.com
+  - +.mux.video
+  - +.brightcove.net
+  - +.jwpcdn.com
+
+  # IPTV辅助
+  - +.rocketdns.info
+  - +.plex.tv
 
 
-    #业务域名
-    - +.fox.com
-    - +.foxnews.com
-    - +.cnn.com
-    - +.cbsnews.com
-    - +.abcnews.go.com
+  #业务域名
+  - +.fox.com
+  - +.foxnews.com
+  - +.cnn.com
+  - +.cbsnews.com
+  - +.abcnews.go.com
