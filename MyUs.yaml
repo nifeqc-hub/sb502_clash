@@ -1,18 +1,9 @@
 payload:
-  - 161.129.60.242/32
-  - 161.129.60.242:51161
-  - 23.237.104.106/32
-  - 89.187.179.148/32
-  - 79.127.48.86/32
-  - 143.244.60.76/32
-  - 206.212.244.23/32
-  - 84.17.63.121/32
-  - 89.222.120.117/32
   - +.world-protv.club
+
+  # CDN
   - +.cloudfront.net
   - +.akamaized.net
-  - +.rocketdns.info
-  - +.livecdn.io
   - +.akamaihd.net
   - +.edgekey.net
   - +.edgesuite.net
@@ -20,7 +11,26 @@ payload:
   - +.llnwd.net
   - +.edgecastcdn.net
   - +.azureedge.net
+
+  # 媒体 CDN
   - +.warnermediacdn.com
+  - +.amagi.tv
+  - +.transmit.live
+  - +.thehlive.com
+
+  # FAST TV
+  - +.pluto.tv
+  - +.roku.com
+
+  # 媒体集团
+  - +.nbcuni.com
+  - +.amdvids.com
+
+  # AWS MediaTailor
+  - +.mediatailor.us-west-2.amazonaws.com
+  - +.mediatailor.us-east-1.amazonaws.com
+
+  # 公共资源
   - +.githubassets.com
   - +.githubusercontent.com
   - +.jsdelivr.net
@@ -31,10 +41,7 @@ payload:
   - +.mux.com
   - +.mux.video
   - +.brightcove.net
-  - +.jwpcdn.com
-  - +.delivery.roku.com
-  - +.now.amagi.tv
-  - +.amg00886-uktvmedialimite-uktvplayuncovered-samsunguk-pxi83.amagi.tv
+  - +.jwpcdn.com  - +.amg00886-uktvmedialimite-uktvplayuncovered-samsunguk-pxi83.amagi.tv
   - +.dhjd4u7ds8bgi.cloudfront.net
   - +.aenetworks.global.transmit.live
   - +.playout.now3.amagi.tv
