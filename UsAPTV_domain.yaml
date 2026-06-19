@@ -14,6 +14,10 @@ payload:
   - +.cloudflare.com
 
   # IPTV/媒体CDN
+  - +.vivotv.vip
+  - +.wickediptv.xyz
+  - +.atlanticflixtv.online
+  - +.lucastv.pro
   - +.livecdn.io
   - +.warnermediacdn.com
   - +.amagi.tv
