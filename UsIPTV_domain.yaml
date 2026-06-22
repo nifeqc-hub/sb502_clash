@@ -1,6 +1,22 @@
 payload:
   - +.world-protv.club
 
+# 新UsIPTV
+  - 1nyaler.streamhostingcdn.top
+  - 2-fss-2.streamhoster.com
+  - buzzrota-web.amagi.tv
+  - cbsn-us.cbsnstream.cbsnews.com
+  - cdn-uw2-prod.tsv2.amagi.tv
+  - dai.google.com
+  - fast-channels.sinclairstoryline.com
+  - jmp2.uk
+  - s.rocketdns.info
+  - stream.cammonitorplus.net
+  - turnerlive.warnermediacdn.com
+  - vs-hls-push-ww-live.akamaized.net
+  - www.bloomberg.com
+
+
   # 主流CDN
   - +.cammononitorplsu.net
   - +.cloudfront.net
