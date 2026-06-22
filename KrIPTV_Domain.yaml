@@ -1,8 +1,14 @@
 payload:
-  - 1.222.207.80/32
-  - 61.82.49.4/32
-  - 61.85.197.53/32
-  - 123.140.197.22/32
-  - 123.254.93.7/32
-  - 124.222.153.240/32
-  - 211.33.246.4/32
+  - +.tving.com
+  - +.sbs.co.kr
+  - +.ebs.co.kr
+  - +.mbn.co.kr
+  - +.gscdn.kbs.co.kr
+  - +.playout.now3.amagi.tv
+  - +.streamlock.net
+  - +.jejumbc.com
+  - +.chmbc.co.kr
+  - +.ikbc.co.kr
+  - +.ubc.co.kr
+  - +.tjmbc.co.kr
+  - +.wowtv.co.kr
