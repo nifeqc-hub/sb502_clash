@@ -16,9 +16,9 @@ payload:
   - +.vs-hls-push-ww-live.akamaized.net
   - +.bloomberg.com
   - +.rocketfx.uk
-  - s.rocketfxdns.info
-  - wx78.vpn-cloud.icu
-
+  - +.s.rocketfxdns.info
+  - +.wx78.vpn-cloud.icu
+  - +.us-east-1.amazonaws.com
 
 
   # 主流CDN
