@@ -15,6 +15,9 @@ payload:
   - +.turnerlive.warnermediacdn.com
   - +.vs-hls-push-ww-live.akamaized.net
   - +.bloomberg.com
+  - +.rocketfx.uk
+  - s.rocketfxdns.info
+
 
 
   # 主流CDN
