@@ -1,0 +1,9 @@
+# 个人常用代理域名（Mihomo / OpenClash，behavior: domain）
+# 对应本地规则：RULE-SET,personal_proxy,默认
+# 新增域名只改本文件；已加载此 provider 的核心每 600 秒检查更新。
+# 填域名，不填 https://、端口或网址路径。
+# '+.example.com' 匹配主域名及全部子域名；'www.example.com' 只匹配该主机。
+# 按主配置从上到下匹配；前面的专用业务/直连规则仍优先。
+# 日本/美国限定影音及 AI 专用分流请保留在各自规则中。
+payload:
+  - '+.inets.io'
