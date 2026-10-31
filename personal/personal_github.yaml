@@ -5,5 +5,3 @@
 payload:
   # 个人补充 → GitHub；来源：本地 personal_github 规则
   - '+.raw.githubusercontent.com'
-  # 更新备用下载入口；用户提供；下载资产另走 bulk_download
-  - 'github.com'

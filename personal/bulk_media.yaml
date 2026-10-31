@@ -7,5 +7,3 @@ payload:
   - 'video.twimg.com'
   # 大流量视频；来源：本地 bulk_media 规则
   - 'v.redd.it'
-  # Apple 航拍视频；用户提供；大流量走 Bulk
-  - 'sylvan.apple.com'

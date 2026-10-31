@@ -7,8 +7,6 @@ payload:
   - '+.ip.sb'
   # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
   - '+.ipify.org'
-  # IP 城市定位；用户提供的 Aerial 地址清单
-  - '+.ipinfo.io'
   # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
   - '+.ifconfig.me'
   # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则

@@ -1,0 +1,16 @@
+# 个人明确直连域名 → 直连
+# 来源：用户于 2026-10-31 明确指定；仅匹配所列主机。
+# 本规则置于出口检测和业务合集之前；GitHub 继续按原规则处理。
+payload:
+  # IP 城市定位；用户要求直连
+  - 'ipinfo.io'
+  # 天气查询；用户要求直连
+  - 'api.open-meteo.com'
+  # 城市名称搜索；用户要求直连
+  - 'geocoding-api.open-meteo.com'
+  # 每日静态壁纸；用户要求直连
+  - 'cn.bing.com'
+  # Apple 航拍视频；用户要求直连
+  - 'sylvan.apple.com'
+  # Aerial 更新、图标库；用户要求直连
+  - 'aerial.qust.me'
