@@ -26,6 +26,8 @@
 
 本次迁移本地内嵌域名集及普通/影音等手写代理域名；局域网、直连例外、DNS 引导与 IP 规则仍留在主配置。远程第三方规则集继续按原地址引用。生产路由器尚未应用本地修改。
 
-## 用户指定直连
+## 维护范围
 
-`personal_direct.yaml` 管理 ipinfo.io、天气、城市搜索、Bing 壁纸、Apple 航拍视频及 Aerial 更新主机；每项均明确直连，优先于出口检测和业务合集。GitHub 未新增覆盖，继续使用原有 github_domain 与下载资产分流。
+只维护需要代理的个人域名，直连业务不新增域名规则。用户提供的 ipinfo.io、api.open-meteo.com、geocoding-api.open-meteo.com、cn.bing.com、sylvan.apple.com、aerial.qust.me 不列入个人代理规则。GitHub 沿用已有分流。
+
+主配置按顺序匹配；未命中代理规则时最终 MATCH 为直连，已有专用规则和第三方远程集合仍可能提前匹配。域名不在个人集合中，不代表它必然不在其他规则集合中。
