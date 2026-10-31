@@ -1,0 +1,9 @@
+# 海外邮箱
+# 来源：mysmartyaml1.10.yaml 手写规则迁移 / 用户补充。
+# behavior: domain；+.域名 含主域名及子域名，裸域名只匹配该主机。
+# 保留原分流；本文件不包含节点、订阅或访问凭据。
+payload:
+  # 海外邮箱；来源：本地 foreign_mail 规则
+  - '+.fastmail.com'
+  # 海外邮箱；来源：本地 foreign_mail 规则
+  - '+.hey.com'

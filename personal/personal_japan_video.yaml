@@ -1,0 +1,19 @@
+# 个人补充 → 日本-大流量-自动
+# 来源：mysmartyaml1.10.yaml 手写规则迁移 / 用户补充。
+# behavior: domain；+.域名 含主域名及子域名，裸域名只匹配该主机。
+# 保留原分流；本文件不包含节点、订阅或访问凭据。
+payload:
+  # 个人补充 → 日本-大流量-自动；来源：本地 personal_japan_video 规则
+  - '+.rakuten.co.jp'
+  # 个人补充 → 日本-大流量-自动；来源：本地 personal_japan_video 规则
+  - '+.rakuten.tv'
+  # 个人补充 → 日本-大流量-自动；来源：本地 personal_japan_video 规则
+  - 'gateway-api.global.rakuten.com'
+  # 个人补充 → 日本-大流量-自动；来源：本地 personal_japan_video 规则
+  - 'amg01287-rakutentvjapan-news3hlscmaf-rakutenjp-us5ga.amagi.tv'
+  # 个人补充 → 日本-大流量-自动；来源：本地 personal_japan_video 规则
+  - 'amg01287-rakutentvjapan-ntv-newsselect-cmaf-rakutenjp-o7ejg.amagi.tv'
+  # 个人补充 → 日本-大流量-自动；来源：本地 personal_japan_video 规则
+  - 'amg01287-rakutentvjapan-rvariety-cmaf-rakutenjp-rga7k.amagi.tv'
+  # 个人补充 → 日本-大流量-自动；来源：本地 personal_japan_video 规则
+  - 'cdn-uw2-prod.tsv2.amagi.tv'

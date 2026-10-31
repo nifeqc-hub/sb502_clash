@@ -1,0 +1,21 @@
+# 海外新闻资讯
+# 来源：mysmartyaml1.10.yaml 手写规则迁移 / 用户补充。
+# behavior: domain；+.域名 含主域名及子域名，裸域名只匹配该主机。
+# 保留原分流；本文件不包含节点、订阅或访问凭据。
+payload:
+  # 海外新闻资讯；来源：本地 foreign_news 规则
+  - '+.washingtonpost.com'
+  # 海外新闻资讯；来源：本地 foreign_news 规则
+  - '+.nbcnews.com'
+  # 海外新闻资讯；来源：本地 foreign_news 规则
+  - 'abcnews.go.com'
+  # 海外新闻资讯；来源：本地 foreign_news 规则
+  - '+.techcrunch.com'
+  # 海外新闻资讯；来源：本地 foreign_news 规则
+  - '+.theverge.com'
+  # 海外新闻资讯；来源：本地 foreign_news 规则
+  - '+.arstechnica.com'
+  # 海外新闻资讯；来源：本地 foreign_news 规则
+  - '+.wired.com'
+  # 海外新闻资讯；来源：本地 foreign_news 规则
+  - '+.engadget.com'

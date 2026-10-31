@@ -1,0 +1,11 @@
+# 大流量视频
+# 来源：mysmartyaml1.10.yaml 手写规则迁移 / 用户补充。
+# behavior: domain；+.域名 含主域名及子域名，裸域名只匹配该主机。
+# 保留原分流；本文件不包含节点、订阅或访问凭据。
+payload:
+  # 大流量视频；来源：本地 bulk_media 规则
+  - 'video.twimg.com'
+  # 大流量视频；来源：本地 bulk_media 规则
+  - 'v.redd.it'
+  # Apple 航拍视频；用户提供；大流量走 Bulk
+  - 'sylvan.apple.com'

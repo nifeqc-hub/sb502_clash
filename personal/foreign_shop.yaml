@@ -1,0 +1,19 @@
+# 海外购物
+# 来源：mysmartyaml1.10.yaml 手写规则迁移 / 用户补充。
+# behavior: domain；+.域名 含主域名及子域名，裸域名只匹配该主机。
+# 保留原分流；本文件不包含节点、订阅或访问凭据。
+payload:
+  # 海外购物；来源：本地 foreign_shop 规则
+  - '+.etsy.com'
+  # 海外购物；来源：本地 foreign_shop 规则
+  - '+.aliexpress.com'
+  # 海外购物；来源：本地 foreign_shop 规则
+  - '+.rakuten.co.jp'
+  # 海外购物；来源：本地 foreign_shop 规则
+  - '+.mercari.com'
+  # 海外购物；来源：本地 foreign_shop 规则
+  - '+.mercari.jp'
+  # 海外购物；来源：本地 foreign_shop 规则
+  - '+.bhphotovideo.com'
+  # 海外购物；来源：本地 foreign_shop 规则
+  - '+.iherb.com'

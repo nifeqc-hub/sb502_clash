@@ -1,0 +1,35 @@
+# 出口 IP / 定位与隐私检测
+# 来源：mysmartyaml1.10.yaml 手写规则迁移 / 用户补充。
+# behavior: domain；+.域名 含主域名及子域名，裸域名只匹配该主机。
+# 保留原分流；本文件不包含节点、订阅或访问凭据。
+payload:
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.ip.sb'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.ipify.org'
+  # IP 城市定位；用户提供的 Aerial 地址清单
+  - '+.ipinfo.io'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.ifconfig.me'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.ifconfig.co'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.icanhazip.com'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.ident.me'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.ipapi.co'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.ipwho.is'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.browserleaks.com'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.ipleak.net'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.dnsleaktest.com'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - '+.whoer.net'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - 'checkip.amazonaws.com'
+  # 出口 IP / 定位与隐私检测；来源：本地 egress_check 规则
+  - 'www.cloudflare.com'

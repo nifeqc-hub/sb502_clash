@@ -1,0 +1,47 @@
+# 下载与软件分发
+# 来源：mysmartyaml1.10.yaml 手写规则迁移 / 用户补充。
+# behavior: domain；+.域名 含主域名及子域名，裸域名只匹配该主机。
+# 保留原分流；本文件不包含节点、订阅或访问凭据。
+payload:
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'objects.githubusercontent.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'release-assets.githubusercontent.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'github-releases.githubusercontent.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'codeload.github.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - '+.steamcontent.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'steampipe.akamaized.net'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'steampipe-kr.akamaized.net'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'steampipe-partner.akamaized.net'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'client-download.steampowered.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'drive.usercontent.google.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - '+.dropboxusercontent.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'content.dropboxapi.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - '+.files.1drv.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - '+.userstorage.mega.co.nz'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'files.pythonhosted.org'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'registry.npmjs.org'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'registry-1.docker.io'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'production.cloudflare.docker.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - '+.dl.playstation.net'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - '+.download.xbox.com'
+  # 下载与软件分发；来源：本地 bulk_download 规则
+  - 'atum.hac.lp1.d4c.nintendo.net'

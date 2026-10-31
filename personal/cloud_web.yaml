@@ -1,0 +1,15 @@
+# 云盘网页与在线文档
+# 来源：mysmartyaml1.10.yaml 手写规则迁移 / 用户补充。
+# behavior: domain；+.域名 含主域名及子域名，裸域名只匹配该主机。
+# 保留原分流；本文件不包含节点、订阅或访问凭据。
+payload:
+  # 云盘网页与在线文档；来源：本地 cloud_web 规则
+  - 'drive.google.com'
+  # 云盘网页与在线文档；来源：本地 cloud_web 规则
+  - 'docs.google.com'
+  # 云盘网页与在线文档；来源：本地 cloud_web 规则
+  - 'sheets.google.com'
+  # 云盘网页与在线文档；来源：本地 cloud_web 规则
+  - 'slides.google.com'
+  # 云盘网页与在线文档；来源：本地 cloud_web 规则
+  - 'drive.googleapis.com'
